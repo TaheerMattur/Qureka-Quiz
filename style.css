@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+header h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 2.5em;
+    color: rgb(93, 177, 255);
+    margin: 10px 0px 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    list-style: none;
+    padding: 5px;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+}
+
+/* Index CSS */
+.box {
+    font-family: cursive;
+    background-color: rgb(248, 140, 77);
+    text-align: center;
+    width: 80%;
+    height: 200px;
+    padding: 30px;
+    margin: 10px auto;
+}
+
+.p {
+    font-size: 1.1em;
+    margin-top: 40px;
+    font-weight: lighter;
+}
+
+footer {
+    font-size: 1.2em;
+    background-color: rgb(0, 202, 175);
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+#footer{
+    position: relative;
+}
+
+/* Quiz CSS */
+.container {
+    width: 90%;
+    margin: 10px auto 0px auto; 
+    background-color: rgb(189, 189, 189);
+}
+
+.row {
+    display: flex;
+    padding: 10px;
+}
+
+.row li {
+    list-style: none;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.white {
+    margin: 0px 15px 10px 15px;
+    padding: 10px;
+    background-color: white; 
+}
+
+#last{
+    margin-bottom: 0;
+    background-color: white; 
+}
+
+p {
+    margin-top: 5px;
+}
+
+.countries {
+    padding-left: 33px;
+}
+
+img {
+    width: 80px;
+    height: 40px;
+    padding: 10px 0px 0px 20px;
+}
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 15%;
+    text-align: center;
+}
+
+table {
+    margin-left: 25px;
+}
+
+video {
+    margin: 10px 0px 0px 20px;
+}
+
+mark {
+    padding: 5px;
+}
+
+div .green {
+    background-color: rgb(113, 255, 113);
+}
+
+div .red {
+    background-color: rgb(255, 99, 60);
+}
+
+/* Contact Us */
+.details {
+    font-family: cursive;
+    background-color: rgb(110, 209, 255);
+    width: 80%;
+    height: 250px;
+    padding: 30px;
+    margin: 10px auto;
+}
+
+.description {
+    margin: 10px;
+}
+
+dt {
+    text-decoration: underline;
+}
+
+dd {
+    margin: 0;
+    padding: 0 0 0 1.2em; 
+}
