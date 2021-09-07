@@ -1,2 +1,2 @@
 # Qureka-Quiz
-Built for practice using HTML and CSS
+Built for practicing HTML and CSS
